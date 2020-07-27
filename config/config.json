@@ -1,0 +1,22 @@
+{
+  "development": {
+    "username": "lolwtfno",
+    "password": "X8ar924xg@",
+    "database": "langb",
+    "host": "gsya.database.windows.net",
+    "dialect": "mssql",
+    "logging": false,
+    "dialectOptions": {
+      "options": { 
+        "requestTimeout": 900000,
+        "trustServerCertificate": true,
+        "encrypt": true }
+    },
+    "pool": {
+      "max": 100,
+      "min": 0,
+      "idle": 10000,
+      "acquire": 10000
+    }
+  }
+}
